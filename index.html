@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Life Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="grid">
+    <section class="card full center">
+      <div class="top-row">
+        <button id="theme-btn" type="button">Dark mode</button>
+        <form id="name-form">
+          <input id="name-input" maxlength="50" placeholder="Your name" autocomplete="off">
+          <button type="submit">Set name</button>
+        </form>
+      </div>
+      <p id="clock" class="clock">--:--:--</p>
+      <p id="date" class="muted"></p>
+      <h1 id="greeting"></h1>
+      <p id="name-error" class="error"></p>
+    </section>
+
+    <section class="card center">
+      <h2>Focus Timer</h2>
+      <p id="timer" class="clock">25:00</p>
+      <p id="timer-msg" class="muted"></p>
+      <form id="time-form" class="row">
+        <label for="minutes">Minutes</label>
+        <input id="minutes" type="number" min="1" max="120" step="1">
+        <button type="submit">Set time</button>
+      </form>
+      <p id="time-error" class="error"></p>
+      <div class="row">
+        <button id="start" class="primary" type="button">Start</button>
+        <button id="stop" type="button">Stop</button>
+        <button id="reset" type="button">Reset</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Tasks</h2>
+      <form id="task-form" class="row">
+        <input id="task-input" maxlength="200" placeholder="Add a new task..." autocomplete="off">
+        <button class="primary" type="submit">Add</button>
+      </form>
+      <p id="task-error" class="error"></p>
+      <ul id="task-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Quick Links</h2>
+      <form id="link-form" class="row">
+        <input id="link-name" maxlength="50" placeholder="Link name" autocomplete="off">
+        <input id="link-url" placeholder="URL">
+        <button class="primary" type="submit">Add Link</button>
+      </form>
+      <p id="link-error" class="error"></p>
+      <div id="links" class="row"></div>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>

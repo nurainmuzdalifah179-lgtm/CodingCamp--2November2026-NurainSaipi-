@@ -1,0 +1,184 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create index.html entry point": [
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793969935626
+      },
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970612878
+      }
+    ],
+    "1.2 Create css/styles.css with theming and layout": [
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793969937876
+      },
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970613351
+      }
+    ],
+    "1.3 Scaffold js/app.js structure and constants": [
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793969939154
+      },
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970613774
+      }
+    ],
+    "1. Set up project structure, HTML skeleton, CSS theming, and constants": [
+      {
+        "executionId": "29f622c4-51dd-4ee9-a86c-67420768a332",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970614164
+      }
+    ],
+    "2.1 Implement getGreetingByHour(hour) and composeGreeting(hour, customName)": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778205
+      },
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970801292
+      },
+      {
+        "executionId": "895889a3-e648-4d58-a30e-e39ce1ff0c24",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793971052006
+      }
+    ],
+    "2.2 Implement formatDuration(ms) returning \"MM:SS\"": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778315
+      }
+    ],
+    "3.1 Implement validation functions returning {valid, error}": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778408
+      }
+    ],
+    "3.2 Implement generateId()": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778529
+      }
+    ],
+    "3.3 Implement isDuplicateTask(tasks, newText, excludeId)": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778636
+      }
+    ],
+    "4.1 Implement pure task operations over a task list": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778726
+      }
+    ],
+    "4.2 Implement pure link operations over a link list": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778824
+      }
+    ],
+    "5.1 Implement Storage_Manager _read and _write primitives": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970778914
+      }
+    ],
+    "5.2 Implement typed Storage_Manager accessors": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779012
+      }
+    ],
+    "6.1 Implement EventBus class": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779100
+      }
+    ],
+    "6.2 Implement AppState as the single source of truth": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779187
+      }
+    ],
+    "7.1 Implement GreetingWidget": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779273
+      }
+    ],
+    "7.2 Implement CustomNameInput": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779361
+      }
+    ],
+    "8.1 Implement FocusTimer with an end-timestamp model": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779440
+      }
+    ],
+    "9.1 Implement TaskList": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779536
+      }
+    ],
+    "10.1 Implement QuickLinksWidget": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779626
+      }
+    ],
+    "11.1 Implement ThemeToggle": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779713
+      }
+    ],
+    "12.1 Implement App bootstrap on DOMContentLoaded": [
+      {
+        "executionId": "c56a017a-9aee-4941-b990-4cbbb321eed3",
+        "chatSessionId": "sess_a81bb9ac-9764-40cf-a30b-e6f4af6b94ac",
+        "timestamp": 1793970779798
+      }
+    ]
+  }
+}
